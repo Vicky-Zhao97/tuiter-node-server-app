@@ -5,15 +5,12 @@
   "description": "Node.js HTTP Web server for the Tuiter application",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vicky-Zhao97/tuiter-node-server-app.git"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Node",
@@ -29,6 +26,7 @@
   "homepage": "https://github.com/Vicky-Zhao97/tuiter-node-server-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3"
   }
 }
